@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Figtree";
+    src: url('/FrontEndMentor/2-Blog-preview-card/assets/fonts/Figtree-VariableFont_wght.ttf'),
+    url('/FrontEndMentor/2-Blog-preview-card/assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
+html {
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 8px 8px black;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.tag {
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    margin: 1rem 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.card-text {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.profile p {
+    font-weight: 800;
+}
