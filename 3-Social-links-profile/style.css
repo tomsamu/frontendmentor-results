@@ -1,0 +1,77 @@
+/* 
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 25px;
+    width: 320px;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+.links a {
+    background-color: hsl(0, 0%, 20%);
+    margin: 8px 0;
+    padding: 12px 0;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.profile img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.profile .location {
+    color: hsl(75, 94%, 57%)
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
